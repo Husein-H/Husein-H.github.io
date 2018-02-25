@@ -1,0 +1,81 @@
+* {
+	margin:0; padding:0;
+}
+nav{
+	background-color:#1a1a1a;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-color: #f2f2f2;
+	width: 1000%;
+	height: 50px;
+	border-radius: 1px;
+	position: fixed;
+	padding-left: 100px;
+}
+a{
+	margin: 12px auto auto 30px;
+	color: black;
+	text-decoration: none;
+}
+img{
+	margin: 130px auto auto 600px;
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+}
+.conten{
+	margin: 50px 400px;
+	text-align: center;	
+	width: 700px;
+	height:500px;
+	color: #1a1a1a;
+}
+#first{
+	font-family: myfont;
+	font-size: 40px;
+	color: #0d0d0d;
+}
+#second{
+	font-family: myfont;
+	font-size: 30px;
+}
+#nama{
+	float: left;
+	font-size: 18px;
+	font-family: Comic Sans MS;
+	 color: #33ccff; 
+}
+#nama:hover{
+	font-size: 19px;
+	transition: 0.3s;
+}
+#journal{
+	margin: 20px auto 0px 300px;
+	font-size: 13px;
+	position: absolute;
+	color: #808080;
+	font-family: Comic Sans MS;
+}
+#journal:hover{
+	border-radius: 5px;
+	font-size: 14px;
+	color: white;
+}
+footer{
+	float: left;
+	position: absolute;
+	margin: 1% 1% auto auto;
+}
+/*html{
+	background-color: white;
+	transition: 0.3s;
+}
+html:hover{
+	background-color: black;
+	transition: 0.3s;
+}*/
+@font-face{
+	font-family: myfont;
+	src:url(timeburnerbold.ttf);
+}
